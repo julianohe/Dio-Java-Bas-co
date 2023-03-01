@@ -10,7 +10,7 @@ public class UltraEmoljiCombat {
     l[5] = new Lutador("Douglas", "Mexico",22 , 1.85f,105.8f , 12, 2, 4);
 
     Luta ABA = new Luta();
-    ABA.marcarLuta([1], [5]);
+    ABA.marcarLuta (l[1],l[2]);
     ABA.lutar();
 
     }
